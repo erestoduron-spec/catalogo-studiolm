@@ -119,7 +119,7 @@ export function ProductoCard({ producto, vendedorSlug }: ProductoCardProps) {
           )}
         </div>
 
-        {/* Una sola acción */}
+        {/* Acción principal: WhatsApp. Ahí se cierra la venta. */}
         <div className="mt-2 flex items-center gap-2 no-print">
           <a
             href={href}
@@ -137,6 +137,18 @@ export function ProductoCard({ producto, vendedorSlug }: ProductoCardProps) {
             <Icon name="lucide:arrow-right" size={18} />
           </Link>
         </div>
+
+        {/* Acción secundaria, a propósito discreta: para quien ya decidió. */}
+        {producto.linkPago && (
+          <a
+            href={producto.linkPago}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 block text-center text-xs text-ink-mute underline underline-offset-2 transition-colors hover:text-ink no-print"
+          >
+            o paga directo aquí
+          </a>
+        )}
       </div>
     </motion.article>
   );

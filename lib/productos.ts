@@ -37,6 +37,7 @@ export const PRODUCTOS: Producto[] = [
       "Sabor frambuesa · 300 g cada una",
     ],
     precio: "$2,850",
+    linkPago: "https://mpago.la/32xVd17", // ⚠️ VERIFICA que abra con este monto
     precioAntes: "$3,747",
     facilidades: "Ahorras 24%",
     bono: "Envío gratis",
@@ -59,6 +60,7 @@ export const PRODUCTOS: Producto[] = [
       "Sabor frambuesa · 300 g cada una",
     ],
     precio: "$2,100",
+    linkPago: "https://mpago.la/2avBzQg", // ⚠️ VERIFICA que abra con este monto
     precioAntes: "$2,498",
     facilidades: "Ahorras 16%",
     bono: "Envío gratis",
@@ -78,6 +80,7 @@ export const PRODUCTOS: Producto[] = [
       "Sabor frambuesa · 300 g",
     ],
     precio: "$1,249",
+    linkPago: "https://mpago.la/2Vi5hU4", // ⚠️ VERIFICA que abra con este monto
     bono: "Envío gratis",
   },
 
@@ -103,6 +106,7 @@ export const PRODUCTOS: Producto[] = [
       "Melena de león, reishi, chaga, maitake, shiitake, cordyceps, turkey tail, agaricus y antrodia camphorata",
     ],
     precio: "$1,550",
+    linkPago: "https://mpago.la/1niydkC", // ⚠️ VERIFICA que abra con este monto
     facilidades: "Te salen en $775 cada uno",
     bono: "Envío gratis",
     destacado: true,
