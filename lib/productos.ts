@@ -24,7 +24,7 @@ export const PRODUCTOS: Producto[] = [
   // el mensaje de WhatsApp ya dice qué pack pidió.
   {
     slug: "colageno-brilliance-3",
-    nombre: "Colágeno Brilliance · Pack 3 piezas",
+    nombre: "Pack Transformación Total · Colágeno 3 piezas",
     categoria: "Colágeno",
     imagen: "/productos/colageno-pack-3.webp", // foto con las 3 bolsas: se ve lo que se lleva
     paraQuien:
@@ -46,7 +46,7 @@ export const PRODUCTOS: Producto[] = [
   },
   {
     slug: "colageno-brilliance-2",
-    nombre: "Colágeno Brilliance · Pack 2 piezas",
+    nombre: "Pack Bienestar · Colágeno 2 piezas",
     categoria: "Colágeno",
     imagen: "/productos/colageno-pack-2.webp", // foto con las 2 bolsas + frambuesas
     paraQuien:
@@ -65,7 +65,7 @@ export const PRODUCTOS: Producto[] = [
   },
   {
     slug: "colageno-brilliance-1",
-    nombre: "Colágeno Brilliance · 1 pieza",
+    nombre: "Pack de Prueba · Colágeno 1 pieza",
     categoria: "Colágeno",
     imagen: "/productos/colageno-brilliance.webp",
     paraQuien:
@@ -82,44 +82,30 @@ export const PRODUCTOS: Producto[] = [
   },
 
   // ── Línea Maná Café ──────────────────────────────────────────
+  // Los cafés se venden EN DÚO, no sueltos. Motivo: el envío ($180)
+  // se come el margen en una pieza suelta. Quien quiera solo uno,
+  // lo pide junto con cualquier colágeno y va sin costo de envío.
   {
-    slug: "mana-cafe-golden-glow",
-    nombre: "Maná Café · Golden Glow",
+    slug: "mana-cafe-duo",
+    nombre: "Pack Ritual Completo · Maná Café Golden + Latte",
     categoria: "Maná Café",
-    imagen: "/productos/golden-glow.webp",
+    imagen: "/productos/duo-cafes.webp",
     paraQuien:
-      "Para quien no quiere dejar su café de la mañana y busca que además le sume a su rutina de belleza.",
+      "Para quien quiere sus dos rituales: el café dorado de la mañana y el latte de hongos para acompañar el resto del día.",
     beneficio:
-      "Tu café dorado de siempre, ahora con biotina y ácido hialurónico: el mismo ritual, con un plus.",
+      "Los dos Maná Café juntos y con envío incluido: el mismo ritual de siempre, en dos versiones.",
     caracteristicas: [
-      "Con biotina y ácido hialurónico",
-      "Cafeína natural",
-      "Sin azúcar · libre de gluten y soya · 330 g",
+      "Golden Glow: café arábica con biotina y ácido hialurónico",
+      "Latte Glow: café arábica con una mezcla de 10 hongos funcionales",
+      "330 g cada uno · libre de gluten y soya",
+      // De aquí en adelante solo se ve al entrar a la ficha:
+      "¿Solo quieres uno? Pídelo junto con cualquier colágeno y también va con envío gratis",
+      "Melena de león, reishi, chaga, maitake, shiitake, cordyceps, turkey tail, agaricus y antrodia camphorata",
     ],
-    precio: "$800",
-    facilidades: "Envío gratis si llevas 2 cafés o lo acompañas con cualquier colágeno",
-    // destacado: true,  // ← marca aquí tu más vendido de la línea Café
-  },
-  {
-    slug: "mana-cafe-latte-glow",
-    nombre: "Maná Café · Latte Glow",
-    categoria: "Maná Café",
-    imagen: "/productos/latte-glow.webp",
-    paraQuien:
-      "Para quien busca un café distinto, con hongos funcionales, para acompañar su día.",
-    beneficio:
-      "Un latte cremoso con una mezcla de 10 hongos funcionales —melena de león, reishi, cordyceps y más— para tu ritual diario.",
-    caracteristicas: [
-      // Los 3 primeros son los que se ven en la tarjeta del catálogo.
-      "Café arábica con una mezcla de 10 hongos funcionales",
-      "Melena de león, reishi, chaga, maitake, shiitake y cordyceps",
-      "Sabor latte · libre de gluten y soya · 330 g",
-      // De aquí en adelante SOLO se ven al entrar a la ficha del producto.
-      "Turkey tail, agaricus blazei, agaricus subrufescens y antrodia camphorata completan los 10",
-      "Una taza al día, en lugar de tu café de siempre",
-    ],
-    precio: "$750",
-    facilidades: "Envío gratis si llevas 2 cafés o lo acompañas con cualquier colágeno",
+    precio: "$1,550",
+    facilidades: "Te salen en $775 cada uno",
+    bono: "Envío gratis",
+    destacado: true,
   },
 ];
 
