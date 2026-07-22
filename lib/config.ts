@@ -5,7 +5,7 @@ export const CONFIG: Config = {
   marca: {
     negocio: "Aura25",
     descripcion:
-      "Péptidos de colágeno avanzados con NAD + Resveratrol: la dosis diaria de salud y juventud diseñada para mayores de 25 años.",
+      "Péptidos de colágeno hidrolizado con NAD + Resveratrol. Tu ritual diario desde los 25.",
     logo: undefined, // pon "/logo.png" cuando subas tu logo a la carpeta public
     primario: "#D47FA6",
     secundario: "#DCA5B9",

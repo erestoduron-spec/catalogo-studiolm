@@ -4,14 +4,19 @@ import { CONFIG } from "@/lib/config";
 import { estiloMarca, claseTema } from "@/lib/marca";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://catalogo-vivo-gilt.vercel.app"),
+  // ⚠️ Tu dirección de Vercel. Si algún día cambias el nombre del proyecto
+  // o le pones dominio propio, actualiza esta línea o la vista previa
+  // al compartir seguirá apuntando al lugar viejo.
+  metadataBase: new URL("https://catalogo-vivo-liard.vercel.app"),
   title: `${CONFIG.marca.negocio} · Catálogo`,
   description: CONFIG.marca.descripcion,
   openGraph: {
     title: `${CONFIG.marca.negocio} · Catálogo`,
     description: CONFIG.marca.descripcion,
     type: "website",
-    images: [{ url: "/productos/vela.jpg", width: 1024, height: 1024, alt: CONFIG.marca.negocio }],
+    // Imagen que aparece al compartir por WhatsApp o Facebook.
+    // Va en JPG y en 1200x630 porque es lo que mejor leen esas apps.
+    images: [{ url: "/portada.jpg", width: 1200, height: 630, alt: CONFIG.marca.negocio }],
   },
 };
 
