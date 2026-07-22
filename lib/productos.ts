@@ -41,8 +41,9 @@ export const PRODUCTOS: Producto[] = [
     precioAntes: "$3,747",
     facilidades: "Ahorras 24%",
     bono: "Envío gratis",
-    prueba:
-      "Lo tomo yo desde hace 2 años; por eso lo recomiendo con confianza.",
+    // Aquí iba el testimonio propio. Se quitó: en la página del propio vendedor
+    // se percibe como argumento de venta, no como prueba (probado con familiares).
+    // Este espacio es para el testimonio de UNA CLIENTA, cuando tengas el primero.
     destacado: true,
   },
   {
