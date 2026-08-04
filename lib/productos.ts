@@ -91,13 +91,13 @@ export const PRODUCTOS: Producto[] = [
   // lo pide junto con cualquier colágeno y va sin costo de envío.
   {
     slug: "mana-cafe-duo",
-    nombre: "Pack Ritual Completo · Maná Café Golden + Latte",
+    nombre: "Pack Ritual Completo · LUX coffee Gold + Latte",
     categoria: "Maná Café",
-    imagen: "/productos/duo-cafes.webp",
+    imagen: "/productos/lux-coffee-duo.jpg",
     paraQuien:
       "Para quien quiere sus dos rituales: el café dorado de la mañana y el latte de hongos para acompañar el resto del día.",
     beneficio:
-      "Los dos Maná Café juntos y con envío incluido: el mismo ritual de siempre, en dos versiones.",
+      "Los dos LUX coffee juntos y con envío incluido: el mismo ritual de siempre, en dos versiones.",
     caracteristicas: [
       "Golden Glow: café arábica con biotina y ácido hialurónico",
       "Latte Glow: café arábica con una mezcla de 10 hongos funcionales",
