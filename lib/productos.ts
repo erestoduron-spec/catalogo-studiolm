@@ -107,7 +107,11 @@ export const PRODUCTOS: Producto[] = [
       "Melena de león, reishi, chaga, maitake, shiitake, cordyceps, turkey tail, agaricus y antrodia camphorata",
     ],
     precio: "$1,600",
-    linkPago: "https://mpago.la/1niydkC", // ⚠️ VERIFICA que abra con este monto ($1,600)
+    // Botón "paga directo aquí" quitado por ahora: el cobro de Mercado Pago
+    // tenía el precio viejo. Cuando el dueño tenga el cobro nuevo por $1,600,
+    // descomentar la línea de abajo y poner el link nuevo.
+    // Link anterior (precio viejo, NO usar): https://mpago.la/1niydkC
+    // linkPago: "https://mpago.la/NUEVO_POR_1600",
     facilidades: "Te salen en $800 cada uno",
     bono: "Envío gratis",
     destacado: true,
