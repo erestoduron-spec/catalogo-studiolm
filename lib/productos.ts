@@ -106,9 +106,9 @@ export const PRODUCTOS: Producto[] = [
       "¿Solo quieres uno? Pídelo junto con cualquier colágeno y también va con envío gratis",
       "Melena de león, reishi, chaga, maitake, shiitake, cordyceps, turkey tail, agaricus y antrodia camphorata",
     ],
-    precio: "$1,550",
-    linkPago: "https://mpago.la/1niydkC", // ⚠️ VERIFICA que abra con este monto
-    facilidades: "Te salen en $775 cada uno",
+    precio: "$1,600",
+    linkPago: "https://mpago.la/1niydkC", // ⚠️ VERIFICA que abra con este monto ($1,600)
+    facilidades: "Te salen en $800 cada uno",
     bono: "Envío gratis",
     destacado: true,
   },
