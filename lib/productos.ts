@@ -84,6 +84,23 @@ export const PRODUCTOS: Producto[] = [
     linkPago: "https://mpago.la/2Vi5hU4", // ⚠️ VERIFICA que abra con este monto
     bono: "Envío gratis",
   },
+  {
+    slug: "combo-colageno-cafe-gold",
+    nombre: "Combo Ritual · Colágeno + LUX coffee Gold",
+    categoria: "Colágeno",
+    paraQuien:
+      "Para quien quiere el colágeno en polvo y también el café dorado que trae colágeno, todo junto y con el envío incluido.",
+    beneficio:
+      "Tu colágeno de frambuesa más el LUX coffee Gold en un solo pedido, sin costo de envío.",
+    caracteristicas: [
+      "Colágeno Pack de Prueba (300 g) más 1 LUX coffee Gold (330 g)",
+      "Golden Glow: café arábica con colágeno, biotina y ácido hialurónico (contiene leche)",
+      "Colágeno hidrolizado tipos I, II y III, sabor frambuesa",
+    ],
+    precio: "$2,049",
+    facilidades: "El colágeno en $1,249 y el café en $800, juntos",
+    bono: "Envío gratis",
+  },
 
   // ── Línea Maná Café ──────────────────────────────────────────
   // Los cafés se venden EN DÚO, no sueltos. Motivo: el envío ($180)
