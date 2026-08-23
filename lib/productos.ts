@@ -86,15 +86,16 @@ export const PRODUCTOS: Producto[] = [
   },
   {
     slug: "combo-colageno-cafe-gold",
-    nombre: "Combo Ritual · Colágeno + LUX coffee Gold",
+    nombre: "Combo Ritual · Colágeno + LUX coffee (Gold o Latte)",
     categoria: "Colágeno",
+    imagen: "/productos/combo-colageno-cafe.webp",
     paraQuien:
-      "Para quien quiere el colágeno en polvo y también el café dorado que trae colágeno, todo junto y con el envío incluido.",
+      "Para quien quiere el colágeno en polvo y su café LUX juntos, eligiendo el que más le gusta: Gold o Latte.",
     beneficio:
-      "Tu colágeno de frambuesa más el LUX coffee Gold en un solo pedido, sin costo de envío.",
+      "Tu colágeno de frambuesa y el café LUX que prefieras, en un solo pedido y con envío gratis.",
     caracteristicas: [
-      "Colágeno Pack de Prueba (300 g) más 1 LUX coffee Gold (330 g)",
-      "Golden Glow: café arábica con colágeno, biotina y ácido hialurónico (contiene leche)",
+      "1 colágeno (Pack de Prueba, 300 g) y 1 café LUX (330 g). Solo dos productos.",
+      "Tú eliges el café: Gold (contiene leche) o Latte",
       "Colágeno hidrolizado tipos I, II y III, sabor frambuesa",
     ],
     precio: "$2,049",
