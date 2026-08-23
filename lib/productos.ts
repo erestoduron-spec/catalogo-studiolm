@@ -99,7 +99,7 @@ export const PRODUCTOS: Producto[] = [
     beneficio:
       "Los dos LUX coffee juntos y con envío incluido: el mismo ritual de siempre, en dos versiones.",
     caracteristicas: [
-      "Golden Glow: café arábica con biotina y ácido hialurónico",
+      "Golden Glow: café arábica con colágeno, biotina y ácido hialurónico (contiene leche)",
       "Latte Glow: café arábica con una mezcla de 10 hongos funcionales",
       "330 g cada uno · libre de gluten y soya",
       // De aquí en adelante solo se ve al entrar a la ficha:
