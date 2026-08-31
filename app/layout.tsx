@@ -3,11 +3,15 @@ import "./globals.css";
 import { CONFIG } from "@/lib/config";
 import { estiloMarca, claseTema } from "@/lib/marca";
 
+// Tu dirección pública. En Vercel se toma sola del dominio del proyecto;
+// en tu compu usa localhost. Así la vista previa al compartir apunta bien
+// sin que tengas que cambiar nada a mano.
+const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : "http://localhost:3000";
+
 export const metadata: Metadata = {
-  // ⚠️ Tu dirección de Vercel. Si algún día cambias el nombre del proyecto
-  // o le pones dominio propio, actualiza esta línea o la vista previa
-  // al compartir seguirá apuntando al lugar viejo.
-  metadataBase: new URL("https://catalogo-vivo-liard.vercel.app"),
+  metadataBase: new URL(siteUrl),
   title: `${CONFIG.marca.negocio} · Catálogo`,
   description: CONFIG.marca.descripcion,
   openGraph: {
@@ -15,8 +19,7 @@ export const metadata: Metadata = {
     description: CONFIG.marca.descripcion,
     type: "website",
     // Imagen que aparece al compartir por WhatsApp o Facebook.
-    // Va en JPG y en 1200x630 porque es lo que mejor leen esas apps.
-    images: [{ url: "/portada.jpg", width: 1200, height: 630, alt: CONFIG.marca.negocio }],
+    images: [{ url: "/logo.png", width: 1200, height: 675, alt: CONFIG.marca.negocio }],
   },
 };
 
