@@ -1,134 +1,149 @@
+// lib/productos.ts
 import type { Producto } from "./tipos";
 
-/**
- * ================================================================
- *  TUS PRODUCTOS — Aura25.
- *  Cada ficha sigue la "anatomía del que vende" (ver CLAUDE.md).
- *
- *  Copia redactada con lo que dicen TUS empaques, sin promesas médicas
- *  (COFEPRIS): describo ingredientes y ritual, no efectos. Revisa cada
- *  "beneficio" con tu criterio antes de publicar.
- *
- *  PENDIENTES OPCIONALES:
- *   - testimonio para los Maná Café (dejé el tuyo solo en el colágeno)
- *   - marca tu MÁS VENDIDO de la línea Café con `destacado: true`
- *   - si ofreces envío gratis / bono, agrégalo en `bono`
- *   - `escasez` SOLO si es real (nunca inventada)
- * ================================================================
- */
 export const PRODUCTOS: Producto[] = [
-  // ── Colágeno Brilliance — producto principal, en 3 packs ─────
-  // Objetivo: llevar al cliente al pack de 3. Por eso va primero,
-  // es el "destacado" y muestra el mayor ahorro (ancla = precio por
-  // pieza suelta × 3). Cada tarjeta tiene su botón "Lo quiero", así
-  // el mensaje de WhatsApp ya dice qué pack pidió.
   {
-    slug: "colageno-brilliance-3",
-    nombre: "Pack Transformación Total · Colágeno 3 piezas",
-    categoria: "Colágeno",
-    imagen: "/productos/colageno-pack-3.webp", // foto con las 3 bolsas: se ve lo que se lleva
-    paraQuien:
-      "Para quien de los 25 en adelante quiere cuidarse en serio y hacer del colágeno un hábito diario, no un gusto de una sola vez.",
-    beneficio:
-      "Tu colágeno en pack de 3, al mejor precio por pieza: hidrolizado con NAD y Resveratrol, sabor frambuesa.",
-    caracteristicas: [
-      "Colágeno hidrolizado tipos I, II y III (bovino y marino)",
-      "Con NAD, Resveratrol y antioxidantes",
-      "Sabor frambuesa · 300 g cada una",
-    ],
-    precio: "$2,850",
-    linkPago: "https://mpago.la/32xVd17", // ⚠️ VERIFICA que abra con este monto
-    precioAntes: "$3,747",
-    facilidades: "Ahorras 24%",
-    bono: "Envío gratis",
-    // Aquí iba el testimonio propio. Se quitó: en la página del propio vendedor
-    // se percibe como argumento de venta, no como prueba (probado con familiares).
-    // Este espacio es para el testimonio de UNA CLIENTA, cuando tengas el primero.
+    slug: "corte-dama",
+    nombre: "Corte de dama",
+    categoria: "Cortes, color y peinado",
+    imagen: undefined,
+    paraQuien: "Para la que quiere un corte que le acomode a su cara y a su día a día.",
+    beneficio: "Sales con un corte hecho a tu medida y el cabello listo para lucir.",
+    caracteristicas: ["Incluye diagnóstico y lavado", "De 45 a 75 minutos", "El precio depende del largo y el acabado"],
+    precio: "Desde $250",
     destacado: true,
   },
   {
-    slug: "colageno-brilliance-2",
-    nombre: "Pack Bienestar · Colágeno 2 piezas",
-    categoria: "Colágeno",
-    imagen: "/productos/colageno-pack-2.webp", // foto con las 2 bolsas + frambuesas
-    paraQuien:
-      "Para quien de los 25 en adelante quiere cuidarse en serio y hacer del colágeno un hábito diario, no un gusto de una sola vez.",
-    beneficio:
-      "Tu colágeno en pack de 2, con buen ahorro: hidrolizado con NAD y Resveratrol, sabor frambuesa.",
-    caracteristicas: [
-      "Colágeno hidrolizado tipos I, II y III (bovino y marino)",
-      "Con NAD, Resveratrol y antioxidantes",
-      "Sabor frambuesa · 300 g cada una",
-    ],
-    precio: "$2,100",
-    linkPago: "https://mpago.la/2avBzQg", // ⚠️ VERIFICA que abra con este monto
-    precioAntes: "$2,498",
-    facilidades: "Ahorras 16%",
-    bono: "Envío gratis",
+    slug: "corte-caballero",
+    nombre: "Corte de caballero",
+    categoria: "Cortes, color y peinado",
+    imagen: undefined,
+    paraQuien: "Para el que quiere un corte bien hecho y salir arreglado sin batallar.",
+    beneficio: "Te vas con el corte definido y, si quieres, la barba en su punto.",
+    caracteristicas: ["Incluye lavado rápido y fijación", "Diseño con navaja o arreglo de barba", "De 30 a 60 minutos"],
+    precio: "Desde $150",
   },
   {
-    slug: "colageno-brilliance-1",
-    nombre: "Pack de Prueba · Colágeno 1 pieza",
-    categoria: "Colágeno",
-    imagen: "/productos/colageno-brilliance.webp",
-    paraQuien:
-      "Para quien quiere empezar su ritual y probar el colágeno antes de llevarse el pack completo.",
-    beneficio:
-      "Prueba tu colágeno hidrolizado con NAD y Resveratrol, sabor frambuesa, para arrancar tu rutina.",
-    caracteristicas: [
-      "Colágeno hidrolizado tipos I, II y III (bovino y marino)",
-      "Con NAD, Resveratrol y antioxidantes",
-      "Sabor frambuesa · 300 g",
-    ],
-    precio: "$1,249",
-    linkPago: "https://mpago.la/2Vi5hU4", // ⚠️ VERIFICA que abra con este monto
-    bono: "Envío gratis",
+    slug: "efectos-color",
+    nombre: "Efectos de color",
+    categoria: "Cortes, color y peinado",
+    imagen: undefined,
+    paraQuien: "Para la que quiere aclarar o darle dimensión al cabello, tipo balayage, luces o mechas.",
+    beneficio: "Consigues un color con el matiz cuidado y un acabado natural.",
+    caracteristicas: ["Incluye valoración previa y matizador", "El precio depende del largo y el nivel de aclarado", "De 3 a 5.5 horas"],
+    precio: "Desde $1,200",
   },
   {
-    slug: "combo-colageno-cafe-gold",
-    nombre: "Combo Ritual · Colágeno + LUX coffee (Gold o Latte)",
-    categoria: "Colágeno",
-    imagen: "/productos/combo-colageno-cafe.webp",
-    paraQuien:
-      "Para quien quiere el colágeno en polvo y su café LUX juntos, eligiendo el que más le gusta: Gold o Latte.",
-    beneficio:
-      "Tu colágeno de frambuesa y el café LUX que prefieras, en un solo pedido y con envío gratis.",
-    caracteristicas: [
-      "1 colágeno (Pack de Prueba, 300 g) y 1 café LUX (330 g). Solo dos productos.",
-      "Tú eliges el café: Gold (contiene leche) o Latte",
-      "Colágeno hidrolizado tipos I, II y III, sabor frambuesa",
-    ],
-    precio: "$2,049",
-    facilidades: "El colágeno en $1,249 y el café en $800, juntos",
-    bono: "Envío gratis",
+    slug: "alaciados-keratinas",
+    nombre: "Alaciados y keratinas",
+    categoria: "Cortes, color y peinado",
+    imagen: undefined,
+    paraQuien: "Para la que trae el cabello encrespado o rebelde y lo quiere manejable y con brillo.",
+    beneficio: "Dejas el cabello más lacio, suave y fácil de peinar por semanas.",
+    caracteristicas: ["Incluye sellado térmico mechón por mechón", "El precio depende del largo y el volumen", "De 2.5 a 4.5 horas"],
+    precio: "Desde $800",
   },
-
-  // ── Línea Maná Café ──────────────────────────────────────────
-  // Los cafés se venden EN DÚO, no sueltos. Motivo: el envío ($180)
-  // se come el margen en una pieza suelta. Quien quiera solo uno,
-  // lo pide junto con cualquier colágeno y va sin costo de envío.
   {
-    slug: "mana-cafe-duo",
-    nombre: "Pack Ritual Completo · LUX coffee Gold + Latte",
-    categoria: "Maná Café",
-    imagen: "/productos/lux-coffee-duo.jpg",
-    paraQuien:
-      "Para quien quiere sus dos rituales: el café dorado de la mañana y el latte de hongos para acompañar el resto del día.",
-    beneficio:
-      "Los dos LUX coffee juntos y con envío incluido: el mismo ritual de siempre, en dos versiones.",
-    caracteristicas: [
-      "Golden Glow: café arábica con colágeno, biotina y ácido hialurónico (contiene leche)",
-      "Latte Glow: café arábica con una mezcla de 10 hongos funcionales",
-      "330 g cada uno · libre de gluten y soya",
-      // De aquí en adelante solo se ve al entrar a la ficha:
-      "¿Solo quieres uno? Pídelo junto con cualquier colágeno y también va con envío gratis",
-      "Melena de león, reishi, chaga, maitake, shiitake, cordyceps, turkey tail, agaricus y antrodia camphorata",
-    ],
-    precio: "$1,600",
-    linkPago: "https://mpago.la/1niydkC", // Mercado Pago: el dueño editó el monto a $1,600 (mismo link)
-    facilidades: "Te salen en $800 cada uno",
-    bono: "Envío gratis",
+    slug: "peinados",
+    nombre: "Peinados",
+    categoria: "Cortes, color y peinado",
+    imagen: undefined,
+    paraQuien: "Para la que tiene un evento y quiere un peinado que aguante toda la noche.",
+    beneficio: "Llegas peinada y con la fijación lista para que dure hasta el final.",
+    caracteristicas: ["Ondas sueltas o recogido elaborado", "Mejor llegar con el cabello limpio y seco", "De 45 a 90 minutos"],
+    precio: "Desde $350",
+  },
+  {
+    slug: "botox-capilar",
+    nombre: "Botox capilar",
+    categoria: "Tratamientos capilares",
+    imagen: undefined,
+    paraQuien: "Para la que trae el cabello dañado o sin vida y lo quiere sentir nutrido y con cuerpo.",
+    beneficio: "Recuperas suavidad y brillo en el cabello.",
+    caracteristicas: ["Hidrata a fondo y baja el frizz", "No es alaciado, es tratamiento", "De 1.5 a 2.5 horas"],
+    precio: "Desde $600",
     destacado: true,
+  },
+  {
+    slug: "nanoplastia",
+    nombre: "Nanoplastia",
+    categoria: "Tratamientos capilares",
+    imagen: undefined,
+    paraQuien: "Para la que quiere alisar el cabello y bajarle el frizz.",
+    beneficio: "Dejas el cabello más lacio y con menos frizz.",
+    caracteristicas: ["Alaciado orgánico, libre de formol", "El precio depende del largo", "De 3 a 5 horas"],
+    precio: "Desde $900",
+  },
+  {
+    slug: "cirugia-capilar",
+    nombre: "Cirugía capilar",
+    categoria: "Tratamientos capilares",
+    imagen: undefined,
+    paraQuien: "Para la que trae el cabello muy maltratado y quiere reconstruirlo a fondo.",
+    beneficio: "Reconstruyes la fibra y recuperas un cabello más fuerte y manejable.",
+    caracteristicas: ["Reconstrucción intensiva para cabello procesado", "Deja un efecto liso medio", "De 2 a 3.5 horas"],
+    precio: "Desde $800",
+  },
+  {
+    slug: "limpieza-puntas",
+    nombre: "Limpieza de puntas",
+    categoria: "Tratamientos capilares",
+    imagen: undefined,
+    paraQuien: "Para la que quiere quitar las puntas maltratadas sin perder el largo.",
+    beneficio: "Te quitas el maltrato de las puntas y el cabello se ve más sano.",
+    caracteristicas: ["Retira la orzuela sin perder largo", "Con tijera o pulidora", "De 30 a 45 minutos"],
+    precio: "Desde $150",
+  },
+  {
+    slug: "planchado-cejas",
+    nombre: "Planchado de cejas",
+    categoria: "Cejas y pestañas",
+    imagen: undefined,
+    paraQuien: "Para la que quiere las cejas peinadas hacia arriba y con forma.",
+    beneficio: "Dejas las cejas alineadas y con una forma más definida por semanas.",
+    caracteristicas: ["Incluye depilación con cera o hilo", "Ordena y da forma a la ceja", "De 45 a 60 minutos"],
+    precio: "Desde $250",
+  },
+  {
+    slug: "microblading",
+    nombre: "Microblading",
+    categoria: "Cejas y pestañas",
+    imagen: undefined,
+    paraQuien: "Para la que tiene poco vello en las cejas y quiere pelo a pelo con aspecto natural.",
+    beneficio: "Recuperas cejas pobladas con trazos que imitan el vello real.",
+    caracteristicas: ["Técnica pelo a pelo", "Incluye visagismo y prueba de tono", "De 2 a 3 horas"],
+    precio: "Desde $1,500",
+  },
+  {
+    slug: "microshading",
+    nombre: "Microshading",
+    categoria: "Cejas y pestañas",
+    imagen: undefined,
+    paraQuien: "Para la que quiere las cejas con efecto sombreado, tipo maquillaje, más suave que el pelo a pelo.",
+    beneficio: "Consigues cejas con efecto difuminado que se ve como maquillaje bien puesto.",
+    caracteristicas: ["Efecto sombreado o degradado", "Ideal para piel mixta o grasa", "De 2 a 3.5 horas"],
+    precio: "Desde $1,600",
+  },
+  {
+    slug: "aplicacion-pestanas",
+    nombre: "Aplicación de pestañas",
+    categoria: "Cejas y pestañas",
+    imagen: undefined,
+    paraQuien: "Para la que quiere pestañas largas y con volumen sin depender del rímel.",
+    beneficio: "Te levantas con la mirada lista, sin tener que maquillar las pestañas.",
+    caracteristicas: ["Clásicas, híbridas o volumen ruso", "Retoque desde $250", "De 1.5 a 2.5 horas"],
+    precio: "Desde $450",
+    destacado: true,
+  },
+  {
+    slug: "lash-lifting",
+    nombre: "Lash lifting",
+    categoria: "Cejas y pestañas",
+    imagen: undefined,
+    paraQuien: "Para la que quiere curvar y levantar sus propias pestañas sin extensiones.",
+    beneficio: "Realzas tus pestañas naturales con más curva y sin usar postizos.",
+    caracteristicas: ["Levanta y curva tu pestaña natural", "Incluye tinte y sellado de keratina", "De 45 a 75 minutos"],
+    precio: "Desde $250",
   },
 ];
 
