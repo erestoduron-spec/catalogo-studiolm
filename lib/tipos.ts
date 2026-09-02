@@ -36,6 +36,8 @@ export interface Marca {
   ciudad?: string;
   /** Liga de Instagram o web (opcional). */
   enlace?: string;
+  /** Horario de atención (opcional). Aparece en el pie del catálogo. */
+  horario?: string;
 }
 
 /** Una promoción o bono activo (aplica a un producto). */

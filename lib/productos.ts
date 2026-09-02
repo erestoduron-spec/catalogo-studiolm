@@ -54,6 +54,26 @@ export const PRODUCTOS: Producto[] = [
     precio: "Desde $350",
   },
   {
+    slug: "permanente",
+    nombre: "Permanente",
+    categoria: "Cortes, color y peinado",
+    imagen: undefined,
+    paraQuien: "Para la que quiere rizos u ondas que le duren y peinarse en menos tiempo.",
+    beneficio: "Sales con el rizo marcado y un cabello con más cuerpo y movimiento.",
+    caracteristicas: ["Rizo u onda, según lo que busques", "Da cuerpo y movimiento al cabello", "Pregúntanos precio y duración"],
+    precio: "Pregúntanos",
+  },
+  {
+    slug: "corte-ninos",
+    nombre: "Corte de niño y niña",
+    categoria: "Cortes, color y peinado",
+    imagen: undefined,
+    paraQuien: "Para los más peques, con paciencia y un corte a su medida.",
+    beneficio: "Tu hij@ sale bien peinad@ y sin pasarla mal en la silla.",
+    caracteristicas: ["Para niñas y niños", "Trato paciente y rápido", "Pregúntanos el precio"],
+    precio: "Pregúntanos",
+  },
+  {
     slug: "botox-capilar",
     nombre: "Botox capilar",
     categoria: "Tratamientos capilares",
@@ -97,7 +117,7 @@ export const PRODUCTOS: Producto[] = [
   {
     slug: "planchado-cejas",
     nombre: "Planchado de cejas",
-    categoria: "Cejas y pestañas",
+    categoria: "Cejas, pestañas y maquillaje",
     imagen: undefined,
     paraQuien: "Para la que quiere las cejas peinadas hacia arriba y con forma.",
     beneficio: "Dejas las cejas alineadas y con una forma más definida por semanas.",
@@ -107,7 +127,7 @@ export const PRODUCTOS: Producto[] = [
   {
     slug: "microblading",
     nombre: "Microblading",
-    categoria: "Cejas y pestañas",
+    categoria: "Cejas, pestañas y maquillaje",
     imagen: undefined,
     paraQuien: "Para la que tiene poco vello en las cejas y quiere pelo a pelo con aspecto natural.",
     beneficio: "Recuperas cejas pobladas con trazos que imitan el vello real.",
@@ -117,7 +137,7 @@ export const PRODUCTOS: Producto[] = [
   {
     slug: "microshading",
     nombre: "Microshading",
-    categoria: "Cejas y pestañas",
+    categoria: "Cejas, pestañas y maquillaje",
     imagen: undefined,
     paraQuien: "Para la que quiere las cejas con efecto sombreado, tipo maquillaje, más suave que el pelo a pelo.",
     beneficio: "Consigues cejas con efecto difuminado que se ve como maquillaje bien puesto.",
@@ -127,7 +147,7 @@ export const PRODUCTOS: Producto[] = [
   {
     slug: "aplicacion-pestanas",
     nombre: "Aplicación de pestañas",
-    categoria: "Cejas y pestañas",
+    categoria: "Cejas, pestañas y maquillaje",
     imagen: undefined,
     paraQuien: "Para la que quiere pestañas largas y con volumen sin depender del rímel.",
     beneficio: "Te levantas con la mirada lista, sin tener que maquillar las pestañas.",
@@ -138,12 +158,22 @@ export const PRODUCTOS: Producto[] = [
   {
     slug: "lash-lifting",
     nombre: "Lash lifting",
-    categoria: "Cejas y pestañas",
+    categoria: "Cejas, pestañas y maquillaje",
     imagen: undefined,
     paraQuien: "Para la que quiere curvar y levantar sus propias pestañas sin extensiones.",
     beneficio: "Realzas tus pestañas naturales con más curva y sin usar postizos.",
     caracteristicas: ["Levanta y curva tu pestaña natural", "Incluye tinte y sellado de keratina", "De 45 a 75 minutos"],
     precio: "Desde $250",
+  },
+  {
+    slug: "maquillaje",
+    nombre: "Maquillaje",
+    categoria: "Cejas, pestañas y maquillaje",
+    imagen: undefined,
+    paraQuien: "Para la que tiene un evento y quiere un maquillaje que le dure y se vea natural.",
+    beneficio: "Llegas maquillada y lista, con un acabado que aguanta toda la ocasión.",
+    caracteristicas: ["Para eventos y ocasiones especiales", "A tu estilo, natural o más marcado", "Pregúntanos precio y disponibilidad"],
+    precio: "Pregúntanos",
   },
 ];
 

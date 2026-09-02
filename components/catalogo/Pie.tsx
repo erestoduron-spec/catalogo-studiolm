@@ -7,6 +7,12 @@ export function Pie() {
     <footer className="border-t border-line py-10 text-center text-sm text-ink-mute">
       <p className="font-medium text-ink-soft">{CONFIG.marca.negocio}</p>
       {CONFIG.marca.ciudad && <p className="mt-1">{CONFIG.marca.ciudad}</p>}
+      {CONFIG.marca.horario && (
+        <div className="mt-4">
+          <p className="font-medium text-ink-soft">Horario</p>
+          <p className="mt-1 whitespace-pre-line">{CONFIG.marca.horario}</p>
+        </div>
+      )}
       <p className="mt-4 no-print">
         <Link href="/vendedores" className="hover:text-marca">
           Kit para vendedores
