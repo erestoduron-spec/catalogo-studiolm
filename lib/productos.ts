@@ -77,7 +77,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "botox-capilar",
     nombre: "Botox capilar",
     categoria: "Tratamientos capilares",
-    imagen: undefined,
+    imagen: "/productos/botox-capilar.jpg",
     paraQuien: "Para la que trae el cabello dañado o sin vida y lo quiere sentir nutrido y con cuerpo.",
     beneficio: "Recuperas suavidad y brillo en el cabello.",
     caracteristicas: ["Hidrata a fondo y baja el frizz", "No es alaciado, es tratamiento", "De 1.5 a 2.5 horas"],
