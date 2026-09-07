@@ -47,7 +47,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "peinados",
     nombre: "Peinados",
     categoria: "Cortes, color y peinado",
-    imagen: undefined,
+    imagen: "/productos/peinados.jpg",
     paraQuien: "Para cualquier mujer que quiera peinarse, sea su cabello corto, largo, liso o chino.",
     beneficio: "Luce desde un peinado relajado hasta un alto peinado.",
     caracteristicas: ["Ondas sueltas o recogido elaborado", "De 45 a 90 minutos"],
