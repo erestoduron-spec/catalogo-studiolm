@@ -27,7 +27,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "efectos-color",
     nombre: "Efectos de color",
     categoria: "Cortes, color y peinado",
-    imagen: undefined,
+    imagen: "/productos/efectos-color.jpg",
     paraQuien: "Para la que quiere aclarar o darle dimensión al cabello, tipo balayage, luces o mechas.",
     beneficio: "Consigues un color con el matiz cuidado y un acabado natural.",
     caracteristicas: ["Incluye valoración previa y matizador", "El precio depende del largo y el nivel de aclarado", "De 3 a 5.5 horas"],
