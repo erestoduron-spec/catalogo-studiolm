@@ -98,7 +98,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "cirugia-capilar",
     nombre: "Cirugía capilar",
     categoria: "Tratamientos capilares",
-    imagen: undefined,
+    imagen: "/productos/cirugia-capilar.jpg",
     paraQuien: "Ideal para el cabello muy maltratado que necesita reconstruirse a fondo.",
     beneficio: "Repara la fibra, recupera un cabello más fuerte y manejable.",
     caracteristicas: ["Reconstrucción intensiva para cabello procesado", "De 45 min a 1.5 horas"],
