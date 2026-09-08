@@ -47,7 +47,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "alaciados-keratinas",
     nombre: "Alaciados y keratinas",
     categoria: "Cortes, color y peinado",
-    imagen: undefined,
+    imagen: "/productos/alaciados-keratinas.jpg",
     paraQuien: "Para la que trae el cabello encrespado o rebelde y lo quiere manejable y con brillo.",
     beneficio: "Dejas el cabello más lacio, suave y fácil de peinar por semanas.",
     caracteristicas: ["Incluye sellado térmico mechón por mechón", "El precio depende del largo y el volumen", "De 2.5 a 4.5 horas"],
