@@ -17,7 +17,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "corte-caballero",
     nombre: "Corte de caballero",
     categoria: "Cortes, color y peinado",
-    imagen: undefined,
+    imagen: "/productos/corte-caballero.jpg",
     paraQuien: "Para el que quiere un corte bien hecho y salir arreglado sin batallar.",
     beneficio: "Te vas con el corte definido y, si quieres, la barba en su punto.",
     caracteristicas: ["Incluye lavado rápido y fijación", "Diseño con navaja o arreglo de barba", "De 30 a 60 minutos"],
