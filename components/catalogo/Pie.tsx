@@ -1,7 +1,6 @@
-import Link from "next/link";
 import { CONFIG } from "@/lib/config";
 
-/** Pie del catálogo. El crédito discreto ayuda a que otros pidan el suyo. */
+/** Pie del catálogo: nombre del negocio, ciudad y horario. */
 export function Pie() {
   return (
     <footer className="border-t border-line py-10 text-center text-sm text-ink-mute">
@@ -13,13 +12,6 @@ export function Pie() {
           <p className="mt-1 whitespace-pre-line">{CONFIG.marca.horario}</p>
         </div>
       )}
-      <p className="mt-4 no-print">
-        <Link href="/vendedores" className="hover:text-marca">
-          Kit para vendedores
-        </Link>
-        {"  ·  "}
-        Hecho con <span className="font-semibold text-ink-soft">Catálogo Vivo</span>
-      </p>
     </footer>
   );
 }
