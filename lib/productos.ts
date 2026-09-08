@@ -6,7 +6,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "corte-dama",
     nombre: "Corte de dama",
     categoria: "Cortes, color y peinado",
-    imagen: undefined,
+    imagen: "/productos/corte-dama.jpg",
     paraQuien: "Para la dama que quiere estrenar corte y que le quede a su medida.",
     beneficio: "Luce un corte que te favorezca de acuerdo a tu rostro y tu estilo de vida.",
     caracteristicas: ["Incluye moldeo y fijación", "De 30 a 50 minutos"],
