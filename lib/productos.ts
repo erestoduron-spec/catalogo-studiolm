@@ -128,7 +128,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "planchado-cejas",
     nombre: "Planchado de cejas",
     categoria: "Cejas, pestañas y maquillaje",
-    imagen: undefined,
+    imagen: "/productos/planchado-cejas.jpg",
     paraQuien: "Para la que quiere las cejas peinadas hacia arriba y con forma.",
     beneficio: "Dejas las cejas alineadas y con una forma más definida por semanas.",
     caracteristicas: ["Incluye depilación con cera o hilo", "Ordena y da forma a la ceja", "De 45 a 60 minutos"],
