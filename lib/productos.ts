@@ -98,7 +98,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "nanoplastia",
     nombre: "Nanoplastia",
     categoria: "Tratamientos capilares",
-    imagen: undefined,
+    imagen: "/productos/nanoplastia.jpg",
     paraQuien: "Para la que quiere alisar el cabello y bajarle el frizz.",
     beneficio: "Dejas el cabello más lacio y con menos frizz.",
     caracteristicas: ["Alaciado orgánico, libre de formol", "El precio depende del largo", "De 3 a 5 horas"],
