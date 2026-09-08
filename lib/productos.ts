@@ -34,6 +34,16 @@ export const PRODUCTOS: Producto[] = [
     precio: "Desde $1,200",
   },
   {
+    slug: "efectos-color-caballeros",
+    nombre: "Efectos de color para caballeros",
+    categoria: "Cortes, color y peinado",
+    imagen: "/productos/efectos-color-caballeros.jpg",
+    paraQuien: "Para el caballero que quiere un efecto de color diferente en el cabello.",
+    beneficio: "Atrévete a las nuevas tendencias en color.",
+    caracteristicas: ["Dale estilo a tu cabello", "Variedad de tonos", "De 2 a 3 horas"],
+    precio: "Desde $700",
+  },
+  {
     slug: "alaciados-keratinas",
     nombre: "Alaciados y keratinas",
     categoria: "Cortes, color y peinado",
