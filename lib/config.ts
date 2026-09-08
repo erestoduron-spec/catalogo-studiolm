@@ -15,6 +15,13 @@ export const CONFIG: Config = {
     enlace: "instagram.com/_.studiolm",
     horario:
       "Lunes a viernes de 10:30 am a 8:00 pm\nSábados de 10:30 am a 6:00 pm\nHorario de comida de 3:00 a 4:00 pm",
+    pago: {
+      banco: "Santander",
+      titular: "Carolina López Miranda",
+      tarjeta: "5579087010093687",
+      clabe: "014311140187561324",
+      nota: "Transfiere o deposita para apartar tu cita y mándanos tu comprobante por WhatsApp.",
+    },
   },
   vendedores: [
     { slug: "studiolm", nombre: "Studio LM", whatsapp: "5217711839195" },

@@ -38,6 +38,21 @@ export interface Marca {
   enlace?: string;
   /** Horario de atención (opcional). Aparece en el pie del catálogo. */
   horario?: string;
+  /**
+   * Datos para apartar / pago por transferencia (opcional). No se muestran
+   * de entrada: aparecen en un botón "Aparta tu cita" que el cliente abre.
+   */
+  pago?: {
+    banco: string;
+    /** A nombre de quién está la cuenta. */
+    titular?: string;
+    /** Número de tarjeta (solo dígitos). */
+    tarjeta?: string;
+    /** CLABE interbancaria de 18 dígitos. */
+    clabe?: string;
+    /** Nota corta opcional (ej. instrucción del comprobante). */
+    nota?: string;
+  };
 }
 
 /** Una promoción o bono activo (aplica a un producto). */

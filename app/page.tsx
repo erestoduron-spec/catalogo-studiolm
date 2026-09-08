@@ -1,6 +1,7 @@
 import { MarcaHeader } from "@/components/catalogo/MarcaHeader";
 import { BarraAcciones } from "@/components/catalogo/BarraAcciones";
 import { CatalogoGrid } from "@/components/catalogo/CatalogoGrid";
+import { PagoAdelantado } from "@/components/catalogo/PagoAdelantado";
 import { Pie } from "@/components/catalogo/Pie";
 
 /**
@@ -18,6 +19,7 @@ export default async function Home({
       <MarcaHeader />
       <BarraAcciones />
       <CatalogoGrid vendedorSlug={v ?? null} />
+      <PagoAdelantado />
       <Pie />
     </main>
   );
