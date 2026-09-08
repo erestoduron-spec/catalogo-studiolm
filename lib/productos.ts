@@ -179,7 +179,7 @@ export const PRODUCTOS: Producto[] = [
     slug: "maquillaje",
     nombre: "Maquillaje",
     categoria: "Cejas, pestañas y maquillaje",
-    imagen: undefined,
+    imagen: "/productos/maquillaje.jpg",
     paraQuien: "Para la que tiene un evento y quiere un maquillaje que le dure y se vea natural.",
     beneficio: "Llegas maquillada y lista, con un acabado que aguanta toda la ocasión.",
     caracteristicas: ["Para eventos y ocasiones especiales", "A tu estilo, natural o más marcado", "Pregúntanos precio y disponibilidad"],
