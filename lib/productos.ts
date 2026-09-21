@@ -18,10 +18,10 @@ export const PRODUCTOS: Producto[] = [
     nombre: "Corte de caballero",
     categoria: "Cortes, color y peinado",
     imagen: "/productos/corte-caballero.jpg",
-    paraQuien: "Para el que quiere un corte bien hecho y salir arreglado sin batallar.",
-    beneficio: "Te vas con el corte definido y, si quieres, la barba en su punto.",
+    paraQuien: "Para que tu barba luzca ordenada, pide un pulido y delineado.",
+    beneficio: "Luce un corte clásico o en tendencia con textura.",
     caracteristicas: ["Incluye lavado rápido y fijación", "Diseño con navaja o arreglo de barba", "De 30 a 60 minutos"],
-    precio: "Desde $150",
+    precio: "Desde $130",
   },
   {
     slug: "efectos-color",
