@@ -58,9 +58,11 @@ export default async function FichaProducto({
           {producto.beneficioArriba && (
             <p className="text-xl leading-snug text-ink">{producto.beneficio}</p>
           )}
-          <p className="text-lg text-ink-soft">
-            <span className="font-semibold text-ink">Para</span> {producto.paraQuien.replace(/^para\s+/i, "")}
-          </p>
+          {producto.paraQuien && (
+            <p className="text-lg text-ink-soft">
+              <span className="font-semibold text-ink">Para</span> {producto.paraQuien.replace(/^para\s+/i, "")}
+            </p>
+          )}
           {!producto.beneficioArriba && (
             <p className="text-xl leading-snug text-ink">{producto.beneficio}</p>
           )}

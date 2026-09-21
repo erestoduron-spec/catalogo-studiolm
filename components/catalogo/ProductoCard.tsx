@@ -68,9 +68,11 @@ export function ProductoCard({ producto, vendedorSlug }: ProductoCardProps) {
         {producto.beneficioArriba && (
           <p className="text-[15px] leading-snug text-ink">{producto.beneficio}</p>
         )}
-        <p className="text-sm text-ink-soft">
-          <span className="font-semibold text-ink">Para</span> {quitarPara(producto.paraQuien)}
-        </p>
+        {producto.paraQuien && (
+          <p className="text-sm text-ink-soft">
+            <span className="font-semibold text-ink">Para</span> {quitarPara(producto.paraQuien)}
+          </p>
+        )}
         {!producto.beneficioArriba && (
           <p className="text-[15px] leading-snug text-ink">{producto.beneficio}</p>
         )}
