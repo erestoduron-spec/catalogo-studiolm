@@ -31,7 +31,7 @@ export const PRODUCTOS: Producto[] = [
     imagen: "/productos/efectos-color.jpg",
     paraQuien: "",
     beneficio: "Las nuevas tendencias en color, permiten dar dimensión, buscando así contraste o equilibrio a la cabellera.",
-    caracteristicas: ["Incluye valoración previa y matizador", "El precio depende del largo y el nivel de aclarado", "De 3 a 8 horas"],
+    caracteristicas: ["El precio depende del largo y el nivel de aclarado", "De 3 a 8 horas"],
     precio: "Desde $1,800",
   },
   {
