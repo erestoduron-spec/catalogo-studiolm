@@ -22,6 +22,7 @@ export const PRODUCTOS: Producto[] = [
     beneficio: "Luce un corte clásico o en tendencia con textura.",
     caracteristicas: ["Incluye lavado rápido y fijación", "Diseño con navaja o arreglo de barba", "De 30 a 60 minutos"],
     precio: "Desde $130",
+    beneficioArriba: true,
   },
   {
     slug: "efectos-color",

@@ -103,6 +103,8 @@ export interface Producto {
   prueba?: string;
   /** Marca el producto estrella de su categoría ("el más vendido"). */
   destacado?: boolean;
+  /** Muestra el beneficio ARRIBA del "para quién" (invierte el orden). */
+  beneficioArriba?: boolean;
   /**
    * Liga de pago de Mercado Pago (ej. "https://mpago.la/xxxx"). Opcional.
    * Va como acción SECUNDARIA, discreta: la principal sigue siendo WhatsApp,
