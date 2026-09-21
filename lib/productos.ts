@@ -96,16 +96,6 @@ export const PRODUCTOS: Producto[] = [
     destacado: true,
   },
   {
-    slug: "nanoplastia",
-    nombre: "Nanoplastia",
-    categoria: "Tratamientos capilares",
-    imagen: "/productos/nanoplastia.jpg",
-    paraQuien: "Para la que quiere alisar el cabello y bajarle el frizz.",
-    beneficio: "Dejas el cabello más lacio y con menos frizz.",
-    caracteristicas: ["Alaciado orgánico, libre de formol", "El precio depende del largo", "De 3 a 5 horas"],
-    precio: "Desde $900",
-  },
-  {
     slug: "cirugia-capilar",
     nombre: "Cirugía capilar",
     categoria: "Tratamientos capilares",
