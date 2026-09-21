@@ -39,7 +39,7 @@ export const PRODUCTOS: Producto[] = [
     nombre: "Efectos de color para caballeros",
     categoria: "Cortes, color y peinado",
     imagen: "/productos/efectos-color-caballeros.jpg",
-    paraQuien: "Para el caballero que quiere un efecto de color diferente en el cabello.",
+    paraQuien: "",
     beneficio: "Atrévete a las nuevas tendencias en color.",
     caracteristicas: ["Dale estilo a tu cabello", "Variedad de tonos", "De 2 a 3 horas"],
     precio: "Desde $700",
