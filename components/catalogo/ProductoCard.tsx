@@ -65,7 +65,7 @@ export function ProductoCard({ producto, vendedorSlug }: ProductoCardProps) {
         <h3 className="font-display text-2xl leading-tight">{producto.nombre}</h3>
 
         {/* Para quién y beneficio. Con beneficioArriba se invierte el orden. */}
-        {producto.beneficioArriba && (
+        {producto.beneficioArriba && producto.beneficio && (
           <p className="text-[15px] leading-snug text-ink">{producto.beneficio}</p>
         )}
         {producto.paraQuien && (
@@ -73,7 +73,7 @@ export function ProductoCard({ producto, vendedorSlug }: ProductoCardProps) {
             <span className="font-semibold text-ink">Para</span> {quitarPara(producto.paraQuien)}
           </p>
         )}
-        {!producto.beneficioArriba && (
+        {!producto.beneficioArriba && producto.beneficio && (
           <p className="text-[15px] leading-snug text-ink">{producto.beneficio}</p>
         )}
 
